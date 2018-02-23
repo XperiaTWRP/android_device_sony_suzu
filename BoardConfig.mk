@@ -98,3 +98,7 @@ TW_INCLUDE_CRYPTO := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_NEW_ION_HEAP := true
 TW_THEME := portrait_hdpi
+
+# Logcat + log daemon
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
